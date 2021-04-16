@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<title>C Piko!</title>
+	<link rel="stylesheet" href="../css/estilos.css" />
+</head>
+<body>
+	<header class="indexHeader">
+		<h1 class="titulo">C Piko! - Tienda de Bebidas</h1>
+		<nav class="indexNav">
+			<ul>
+				<li class="itemIndex"><a href="../index.html">Inicio</a></li>
+				<li class="itemIndex"><a href="productos.html">Productos</a></li>
+				<li class="itemIndex"><a href="promos.html">Promociones</a></li>
+				<li class="itemIndex"><a href="contacto.html">Contacto</a></li>
+				<li class="itemIndex"><a href="login.html">Login</a></li>
+			</ul>
+		</nav>	
+	</header>
+
+	
+	
+	<form id="forma" name="forma" method="POST">
+		<div class="contenedor">
+			<h2>Contactanos!</h2>
+			<div class="elemento">
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" placeholder="Nombre"><br><br>
+			</div>
+			<div class="elemento">
+				<label for="apellido">Apellido:</label>
+				<input type="text" id="apellido" name="apellido" placeholder="Apellido"><br><br>
+			</div>
+			<div class="elemento">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+			</div>
+			<select class="select-css" name="Motivo">
+				<option value="1">Combos para tu fiesta</option>
+				<option value="2">Pedidos mayoristas</option>
+				<option value="3">Ofertas y promociones</option>
+			</select><br><br>
+			
+			<textarea class="textArea" name="consultanos" rows="10" cols="50">Realiza tu consulta aca!</textarea><br>
+			<p class="recibir-email">
+
+				¿Desea recibir nuestras ofertas y promociones en su email?:<br>
+
+				<input type="checkbox" name="cb-si" value="gusta"> SI<br>
+
+				<input type="checkbox" name="cb-no" value="gusta"> NO<br>
+
+			</p>
+			<div class="elemento">
+				<input type="submit" value="Enviar formulario"/>
+			</div>
+			<div class="elemento">
+				<input type="reset" value="Limpiar formulario"/>
+			</div>
+		</div>
+		
+	</form>
+
+	<footer class="indexFooter">
+		<h2 class="simil-titulo">C Piko! - Tienda de Bebidas</h2>
+		<h3>Av. Siempre Viva 742</h3>
+		<h3>Lunes a Miercoles de 10-20HS Jueves a Sabados de 10-21HS</h3>
+		<h3>Telefono: 00000000</h3>
+		<h3>Whatsapp: 11-1111-1111</h3>
+	</footer>
+	
+</body>
+</html>
