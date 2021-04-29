@@ -1,204 +1,207 @@
-html{
-	height: 100%;
-}
-*{
-	margin: 0;
-	padding: 0;
-}
-h1{
-	animation-duration: 2s;
-   	animation-name: aparecer;
-	text-align: center;
-}
-@keyframes aparecer {
-   0% {
-     opacity: 0;
-   }
-   100% {
-     opacity: 1;
-   }
-}
-.simil-titulo{
-	color: white;
-	font-family: 'Lobster', cursive
-}
-h2{
-	color: black;
-	font-family: 'Roboto Condensed', sans-serif;
-	text-align: center;
-}
-h3{
-	color: black;
-	font-family: 'Roboto Condensed', sans-serif;   
-	text-align: center;
-}
-header{
-	font-family: 'Lobster', cursive;  
-}
-a{
-	text-decoration: none;
-}
-body{
-	background-color: #5D6D7E;
-}
-.indexHeader{
-	background-color: black;
-	opacity: 0.8;
-}
-.itemIndex{
-	color: white;
-	font-family: 'Roboto Condensed', sans-serif;
-	margin: 20px;
-	display: inline;
-}
-.itemIndex a{
-	padding: 10px;
-	color: white;
-	text-decoration: none;
-}
-.titulo{
-	font-size: 50px;
-	font-weight: 200;
-	padding: 20;
-	color: white;
-}
-.indexNav{
-    display: inline;
-	text-align: center;
-}
-.indexFooter{
-	background-color: black;
-}
-.loginTitulo {
-	text-align: center;
-}
-.textBox{
-	color: black;
-	font-size: 20px;
-	display: inline-block;
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 0px 370px;
-}
-.container{
-	background-image: white;
-}
-.card{
-	background-color: white;
-}
-.card-title{
-	color: black;
-}
-.card-text{
-	color: black;
-}
-.contenedor{
-	margin: 50px auto;
-	width: 400px;
-	padding: 50px;
-	background: #095e7a;
-	border-radius: 10px; 
-}
-.contenedor h2{
-	margin: 0 0 30px;
-	padding: 0;
-	font-size: 30px;
-	color: #4cc9f0;
-	text-align: center;
-}
-.contenedor .elemento label{
-	color: white;
+header {
+  font-family: 'Lobster', cursive; }
 
-}
-.contenedor .elemento input{
-	width: 100%;
-	padding: 10px 0;
-	color: black;
-	background: #a4d6ed;
-	border: none;
-	border-bottom: 1px solid white;
-	margin-bottom: 30px;
-}
-.contenedor .elemento input[type="submit"]{
-	background-color: #a4d6ed;
-	border: none;
-	border-radius: 10px;
-	letter-spacing: 5px;
-	text-transform: uppercase;
-	cursor: pointer;
-	padding: 15px;
-	margin-top: 30px;
-}
-.select-css {
-	display: block;
-	font-size: 16px;
-	font-weight: 400;
-	color: #450;
-	line-height: 1.5;
-	padding: 10px;
-	width: 400px;
-	max-width: 100%; 
-	box-sizing: border-box;
-	margin: 20px auto;
-	border: 1px solid black;
-	border-radius: 5px;
-	appearance: none;
-	background-color: #a4d6ed;
-}
-.recibir-email{
-	color: white;
-}
-.contenedor .elemento input[type="reset"]{
-	background-color: #a4d6ed;
-	border: none;
-	border-radius: 10px;
-	letter-spacing: 5px;
-	text-transform: uppercase;
-	cursor: pointer;
-	padding: 15px;
-	margin-top: 30px;
-}
-.textArea{
-	background-color: #a4d6ed;
-}
-.subtitulos{
-	color: white;
-}
+.indexHeader {
+  background-color: black;
+  opacity: 0.8; }
+
+.itemIndex {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 20px;
+  display: inline; }
+
+.indexNav {
+  display: inline;
+  text-align: center; }
+
+.itemIndex a {
+  padding: 10px;
+  color: white;
+  text-decoration: none; }
 
 #grilla {
-   display: grid;
-   grid-template-areas:
-     "chopp1 promo1"
-     "contactanos1 contactanos1";
-     
-   grid-template-rows: 430px 460px; 
-   grid-template-columns: 400px;
-   margin: 50px 50px 0px 550px;
-   padding: 10px 10px 10px 10px;
-}
+  display: grid;
+  grid-template-areas: "chopp1 promo1" "contactanos1 contactanos1";
+  grid-template-rows: 430px 460px;
+  grid-template-columns: 400px;
+  margin: 50px 50px 0px 550px;
+  padding: 10px 10px 10px 10px; }
+
 .border {
-   border: 1px solid black;
-}
-.chopp1{
-   grid-area: chopp1;
-}
+  border: 1px solid black; }
+
+.chopp1 {
+  grid-area: chopp1; }
+
 .promo1 {
-   grid-area: promo1;
-}
-.contactanos1{
-   grid-area: contactanos1;     
-}
-.quedateEnCasa{
-	margin: 10px 0px 0px 50px;
-	padding: 10px 0px 0px 0px;
-}
+  grid-area: promo1; }
 
+.contactanos1 {
+  grid-area: contactanos1; }
 
+.container {
+  background-image: white; }
 
+.card {
+  background-color: white; }
 
+.card-text {
+  color: black; }
 
+.contenedor {
+  margin: 50px auto;
+  width: 400px;
+  padding: 50px;
+  background: #095e7a;
+  border-radius: 10px; }
 
+.contenedor h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  font-size: 30px;
+  color: #4cc9f0;
+  text-align: center; }
 
+.contenedor .elemento label {
+  color: white; }
 
+.contenedor .elemento input {
+  width: 100%;
+  padding: 10px 0;
+  color: black;
+  background: #a4d6ed;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px; }
 
+.contenedor .elemento input[type="submit"] {
+  background-color: #a4d6ed;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 30px; }
 
+.select-css {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #450;
+  line-height: 1.5;
+  padding: 10px;
+  width: 400px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  appearance: none;
+  background-color: #a4d6ed; }
 
+.recibir-email {
+  color: white; }
+
+.contenedor .elemento input[type="reset"] {
+  background-color: #a4d6ed;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 30px; }
+
+.textArea {
+  background-color: #a4d6ed; }
+
+h1 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  text-align: center; }
+
+h2 {
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center; }
+
+h3 {
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center; }
+
+.titulo {
+  font-size: 50px;
+  font-weight: 200;
+  padding: 20;
+  color: white; }
+
+.loginTitulo {
+  text-align: center; }
+
+.card-title {
+  color: black; }
+
+.subtitulos {
+  color: white; }
+
+.simil-titulo {
+  color: white;
+  font-family: 'Lobster', cursive; }
+
+.titulo-prod {
+  color: white; }
+
+html {
+  height: 100%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #c7c7c7; }
+
+.indexFooter {
+  background-color: black; }
+
+.textBox {
+  text-decoration-color: white;
+  font-size: 21px;
+  display: inline-block;
+  margin: 10px 10px 10px 100px;
+  padding: 10px 10px 0px 370px; }
+
+.quedateEnCasa {
+  width: 100%; }
+
+.btn-primary {
+  background-color: black; }
+
+.caja1 {
+  background-color: #ff0000;
+  width: 960px; }
+
+.caja2 {
+  background-color: #f2ff00;
+  width: 900px; }
+
+.card-text {
+  color: black; }
+
+.card-deck {
+  margin: 50px 0px 0px 0px; }
+
+.card-img-top1 {
+  width: 35%; }

@@ -1,0 +1,69 @@
+@import "header";
+@import "grilla";
+@import "formularios";
+@import "titulos";
+
+
+$ancho: 1920px;
+$red: #ff0000;
+$yellow: #f2ff00;
+
+html{
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #c7c7c7;
+}
+.indexFooter{
+	background-color: black;
+}
+.textBox{
+	text-decoration-color: white;
+	font-size: 21px;
+	display: inline-block;
+	margin: 10px 10px 10px 100px;
+	padding: 10px 10px 0px 370px;
+}
+.quedateEnCasa{
+	width: 100%;
+}
+.btn-primary{
+	background-color: black;
+}
+.caja1 {
+         background-color: $red;
+          width: $ancho/2; 
+}
+.caja2 {
+            background-color: $yellow;
+             width: ($ancho/2)-60;
+}
+.card-text{
+	color: black;
+}
+.card-deck{
+	margin: 50px 0px 0px 0px;
+}
+.card-img-top1{
+	width: 35%;
+}
+
+
+
+	
+

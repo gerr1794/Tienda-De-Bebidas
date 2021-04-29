@@ -1,0 +1,23 @@
+#grilla {
+   display: grid;
+   grid-template-areas:
+     "chopp1 promo1"
+     "contactanos1 contactanos1";
+     
+   grid-template-rows: 430px 460px; 
+   grid-template-columns: 400px;
+   margin: 50px 50px 0px 550px;
+   padding: 10px 10px 10px 10px;
+}
+.border {
+   border: 1px solid black;
+}
+.chopp1{
+   grid-area: chopp1;
+}
+.promo1 {
+   grid-area: promo1;
+}
+.contactanos1{
+   grid-area: contactanos1;     
+}

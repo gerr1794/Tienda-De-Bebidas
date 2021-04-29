@@ -1,0 +1,79 @@
+.container{
+	background-image: white;
+}
+.card{
+	background-color: white;
+}
+
+.card-text{
+	color: black;
+}
+.contenedor{
+	margin: 50px auto;
+	width: 400px;
+	padding: 50px;
+	background: #095e7a;
+	border-radius: 10px; 
+}
+.contenedor h2{
+	margin: 0 0 30px;
+	padding: 0;
+	font-size: 30px;
+	color: #4cc9f0;
+	text-align: center;
+}
+.contenedor .elemento label{
+	color: white;
+
+}
+.contenedor .elemento input{
+	width: 100%;
+	padding: 10px 0;
+	color: black;
+	background: #a4d6ed;
+	border: none;
+	border-bottom: 1px solid white;
+	margin-bottom: 30px;
+}
+.contenedor .elemento input[type="submit"]{
+	background-color: #a4d6ed;
+	border: none;
+	border-radius: 10px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 15px;
+	margin-top: 30px;
+}
+.select-css {
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	color: #450;
+	line-height: 1.5;
+	padding: 10px;
+	width: 400px;
+	max-width: 100%; 
+	box-sizing: border-box;
+	margin: 20px auto;
+	border: 1px solid black;
+	border-radius: 5px;
+	appearance: none;
+	background-color: #a4d6ed;
+}
+.recibir-email{
+	color: white;
+}
+.contenedor .elemento input[type="reset"]{
+	background-color: #a4d6ed;
+	border: none;
+	border-radius: 10px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 15px;
+	margin-top: 30px;
+}
+.textArea{
+	background-color: #a4d6ed;
+}
