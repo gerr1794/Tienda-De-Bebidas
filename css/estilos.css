@@ -6,6 +6,7 @@ header {
   opacity: 0.8; }
 
 .itemIndex {
+  font-size: 22px;
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
   margin: 20px;
@@ -19,6 +20,9 @@ header {
   padding: 10px;
   color: white;
   text-decoration: none; }
+
+.contenido {
+  padding-top: 110px; }
 
 #grilla {
   display: grid;
@@ -51,10 +55,10 @@ header {
 
 .contenedor {
   margin: 50px auto;
-  width: 400px;
+  width: 500px;
   padding: 50px;
-  background: #095e7a;
-  border-radius: 10px; }
+  background: #000000;
+  border-radius: 35px; }
 
 .contenedor h2 {
   margin: 0 0 30px;
@@ -70,13 +74,13 @@ header {
   width: 100%;
   padding: 10px 0;
   color: black;
-  background: #a4d6ed;
+  background: #e6ffff;
   border: none;
   border-bottom: 1px solid white;
   margin-bottom: 30px; }
 
 .contenedor .elemento input[type="submit"] {
-  background-color: #a4d6ed;
+  background-color: #e6ffff;
   border: none;
   border-radius: 10px;
   letter-spacing: 5px;
@@ -99,13 +103,13 @@ header {
   border: 1px solid black;
   border-radius: 5px;
   appearance: none;
-  background-color: #a4d6ed; }
+  background-color: #e6ffff; }
 
 .recibir-email {
   color: white; }
 
 .contenedor .elemento input[type="reset"] {
-  background-color: #a4d6ed;
+  background-color: #e6ffff;
   border: none;
   border-radius: 10px;
   letter-spacing: 5px;
@@ -115,7 +119,8 @@ header {
   margin-top: 30px; }
 
 .textArea {
-  background-color: #a4d6ed; }
+  margin: 10px 10px 10px -5px;
+  background-color: #e6ffff; }
 
 h1 {
   animation-duration: 2s;
@@ -152,7 +157,8 @@ h3 {
   font-family: 'Lobster', cursive; }
 
 .titulo-prod {
-  color: white; }
+  color: black;
+  font-weight: bold; }
 
 html {
   height: 100%; }
@@ -189,15 +195,8 @@ body {
 .btn-primary {
   background-color: black; }
 
-.caja1 {
-  background-color: #ff0000;
-  width: 960px; }
-
-.caja2 {
-  background-color: #f2ff00;
-  width: 900px; }
-
 .card-text {
+  font-size: 20px;
   color: black; }
 
 .card-deck {
@@ -205,3 +204,10 @@ body {
 
 .card-img-top1 {
   width: 35%; }
+
+.imagenlink {
+  display: block;
+  margin: 0 auto;
+  padding: 25px 10px 10px 10px;
+  max-width: 100%;
+  width: 80%; }

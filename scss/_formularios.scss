@@ -10,10 +10,10 @@
 }
 .contenedor{
 	margin: 50px auto;
-	width: 400px;
+	width: 500px;
 	padding: 50px;
-	background: #095e7a;
-	border-radius: 10px; 
+	background: #000000;
+	border-radius: 35px; 
 }
 .contenedor h2{
 	margin: 0 0 30px;
@@ -30,13 +30,13 @@
 	width: 100%;
 	padding: 10px 0;
 	color: black;
-	background: #a4d6ed;
+	background: #e6ffff;
 	border: none;
 	border-bottom: 1px solid white;
 	margin-bottom: 30px;
 }
 .contenedor .elemento input[type="submit"]{
-	background-color: #a4d6ed;
+	background-color: #e6ffff;
 	border: none;
 	border-radius: 10px;
 	letter-spacing: 5px;
@@ -59,13 +59,13 @@
 	border: 1px solid black;
 	border-radius: 5px;
 	appearance: none;
-	background-color: #a4d6ed;
+	background-color: #e6ffff;
 }
 .recibir-email{
 	color: white;
 }
 .contenedor .elemento input[type="reset"]{
-	background-color: #a4d6ed;
+	background-color: #e6ffff;
 	border: none;
 	border-radius: 10px;
 	letter-spacing: 5px;
@@ -75,5 +75,6 @@
 	margin-top: 30px;
 }
 .textArea{
-	background-color: #a4d6ed;
+	margin: 10px 10px 10px -5px;
+	background-color: #e6ffff;
 }

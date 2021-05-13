@@ -3,11 +3,6 @@
 @import "formularios";
 @import "titulos";
 
-
-$ancho: 1920px;
-$red: #ff0000;
-$yellow: #f2ff00;
-
 html{
 	height: 100%;
 }
@@ -16,12 +11,12 @@ html{
 	padding: 0;
 }
 @keyframes aparecer {
-   0% {
-     opacity: 0;
-   }
-   100% {
-     opacity: 1;
-   }
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 a{
 	text-decoration: none;
@@ -45,15 +40,8 @@ body{
 .btn-primary{
 	background-color: black;
 }
-.caja1 {
-         background-color: $red;
-          width: $ancho/2; 
-}
-.caja2 {
-            background-color: $yellow;
-             width: ($ancho/2)-60;
-}
 .card-text{
+	font-size: 20px;
 	color: black;
 }
 .card-deck{
@@ -62,8 +50,17 @@ body{
 .card-img-top1{
 	width: 35%;
 }
+.imagenlink{
+	display: block;
+	margin: 0 auto;
+	padding: 25px 10px 10px 10px;
+	max-width: 100%;
+	width: 80%;
+
+}
 
 
 
-	
+
+
 

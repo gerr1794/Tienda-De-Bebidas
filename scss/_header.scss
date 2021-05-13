@@ -1,4 +1,5 @@
 header{
+	
 	font-family: 'Lobster', cursive;
 }
 .indexHeader{
@@ -6,17 +7,21 @@ header{
 	opacity: 0.8;
 }
 .itemIndex{
+	font-size: 22px;
 	color: white;
 	font-family: 'Roboto Condensed', sans-serif;
 	margin: 20px;
 	display: inline;
 }
 .indexNav{
-    display: inline;
+	display: inline;
 	text-align: center;
 }
 .itemIndex a{
 	padding: 10px;
 	color: white;
 	text-decoration: none;
+}
+.contenido {
+	padding-top: 110px;
 }
