@@ -5,9 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-
-
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	
@@ -16,6 +14,27 @@
 	<link rel="stylesheet" href="../css/estilos.css" />  
 </head>
 <body>
+
+	<nav>
+		<div class="logo">
+			<h1>C Piko!</h1>
+			<h2 class="titulo-responsive">Tienda de Bebidas</h2>
+		</div>
+		<button class="btn-toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+		<ul>
+			<li><a href="../index.html">Inicio</a></li>
+			<li><a href="productos.html">Productos</a></li>
+			<li><a href="promos.html">Promos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="login.html">Login</a></li>
+		</ul>
+	</nav>
+
+<!--	
 	<header class="indexHeader">  
 		<h1 class="titulo">C Piko! - Tienda de Bebidas</h1>
 		<nav class="indexNav">
@@ -29,8 +48,9 @@
 		</nav>	
 	</header>
 
-	
-	
+-->
+
+<section class="contenido">	
 	<form id="forma" name="forma" method="POST">
 		<div class="contenedor">
 			<h2>CONTACTANOS!</h2>
@@ -69,6 +89,7 @@
 				<input type="reset" value="Limpiar formulario"/>
 			</div>
 		</div>
+
 		
 	</form>
 
@@ -79,6 +100,22 @@
 		<h3 class="subtitulos">Telefono: 00000000</h3>
 		<h3 class="subtitulos">Whatsapp: 11-1111-1111</h3>
 	</footer>
-	
+</section>
+
+<!-- JAVASCRIPT PARA EL MENU -->
+
+<script>var menuUL = document.getElementsByTagName("ul");
+var heightOful = menuUL[0].scrollHeight;
+var btnToggle = document.getElementsByClassName("btn-toggle");
+btnToggle[0].addEventListener("click",function(){
+	if(menuUL[0].style.maxHeight){
+		menuUL[0].style.maxHeight = null;
+	}
+	else{
+		menuUL[0].style.maxHeight = menuUL[0].scrollHeight + "px";
+	}
+});
+</script>
+
 </body>
 </html>

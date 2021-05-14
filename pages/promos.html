@@ -3,8 +3,8 @@
 <head>
 
 	<meta name="description" content="Tienda de bebidas, promociones de bebidas alcoholicas, combos de bebidas y snaks">
-    <meta name="keywords"  content="combos de bebidas, gin, vodka, cerveza, vinos, gaseosas">
-    <meta charset="UTF-8">
+	<meta name="keywords"  content="combos de bebidas, gin, vodka, cerveza, vinos, gaseosas">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
@@ -15,6 +15,29 @@
 	<link rel="stylesheet" href="../css/estilos.css" />
 </head>
 <body>
+
+
+
+	<nav>
+		<div class="logo">
+			<h1>C Piko!</h1>
+			<h2 class="titulo-responsive">Tienda de Bebidas</h2>
+		</div>
+		<button class="btn-toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+		<ul>
+			<li><a href="../index.html">Inicio</a></li>
+			<li><a href="productos.html">Productos</a></li>
+			<li><a href="promos.html">Promos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="login.html">Login</a></li>
+		</ul>
+	</nav>
+	
+<!--
 	<header class="indexHeader">
 		<h1 class="titulo">C Piko! - Tienda de Bebidas</h1>  
 		<nav class="indexNav">
@@ -27,7 +50,9 @@
 			</ul>
 		</nav>	
 	</header>
+-->
 
+<section class="contenido">
 	<h2 class="titulo-prod">ESTAS SON NUESTRAS PROMOS!</h2>
 
 	<div class="container">
@@ -105,6 +130,8 @@
 		</div>
 	</div>
 
+	
+
 	<footer class="indexFooter">
 		<h2 class="simil-titulo">C Piko! - Tienda de Bebidas</h2>
 		<h3 class="subtitulos">Av. Siempre Viva 742</h3>
@@ -112,6 +139,22 @@
 		<h3 class="subtitulos">Telefono: 00000000</h3>
 		<h3 class="subtitulos">Whatsapp: 11-1111-1111</h3>
 	</footer>
+</section>
+
+<!-- JAVASCRIPT PARA EL MENU -->
+
+<script>var menuUL = document.getElementsByTagName("ul");
+var heightOful = menuUL[0].scrollHeight;
+var btnToggle = document.getElementsByClassName("btn-toggle");
+btnToggle[0].addEventListener("click",function(){
+	if(menuUL[0].style.maxHeight){
+		menuUL[0].style.maxHeight = null;
+	}
+	else{
+		menuUL[0].style.maxHeight = menuUL[0].scrollHeight + "px";
+	}
+});
+</script>
 
 </body>
 </html>

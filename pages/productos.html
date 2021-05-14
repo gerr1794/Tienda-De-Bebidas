@@ -14,6 +14,28 @@
   <link rel="stylesheet" href="../css/estilos.css" />
 </head>
 <body>
+
+  <nav>
+    <div class="logo">
+      <h1>C Piko!</h1>
+      <h2 class="titulo-responsive">Tienda de Bebidas</h2>
+    </div>
+    <button class="btn-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="promos.html">Promos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+
+<!--
   <header class="indexHeader">
     <h1 class="titulo">C Piko! - Tienda de Bebidas</h1>
     <nav class="indexNav">
@@ -26,8 +48,9 @@
       </ul>
     </nav>
   </header>
+-->
 
-  
+<section class="contenido">
   <h2 class="titulo-prod">¡NUESTRA VARIEDAD DE PRODUCTOS!</h2>
 
   <div class="container">
@@ -307,7 +330,6 @@
 
   </div>
 
-  
 
   <footer class="indexFooter">
     <h2 class="simil-titulo">C Piko! - Tienda de Bebidas</h2>
@@ -316,6 +338,22 @@
     <h3 class="subtitulos">Telefono: 00000000</h3>
     <h3 class="subtitulos">Whatsapp: 11-1111-1111</h3>
   </footer>
+
+</section>
+<!-- JAVASCRIPT PARA EL MENU -->
+
+<script>var menuUL = document.getElementsByTagName("ul");
+var heightOful = menuUL[0].scrollHeight;
+var btnToggle = document.getElementsByClassName("btn-toggle");
+btnToggle[0].addEventListener("click",function(){
+  if(menuUL[0].style.maxHeight){
+    menuUL[0].style.maxHeight = null;
+  }
+  else{
+    menuUL[0].style.maxHeight = menuUL[0].scrollHeight + "px";
+  }
+});
+</script>
 
 </body>
 </html>
