@@ -75,6 +75,16 @@
 	margin-top: 30px;
 }
 .textArea{
-	margin: 10px 10px 10px -5px;
+	margin: 10px 10px 10px 0px;
 	background-color: #e6ffff;
+	box-sizing: border-box;
+	min-height: 100px;
+	max-height: 250px;
+	max-width: 100%;
+}
+@media (max-width: 480px) {
+	.contenedor{
+		width: 100%;
+	}
+	
 }

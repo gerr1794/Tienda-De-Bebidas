@@ -180,8 +180,16 @@ section {
   margin-top: 30px; }
 
 .textArea {
-  margin: 10px 10px 10px -5px;
-  background-color: #e6ffff; }
+  margin: 10px 10px 10px 0px;
+  background-color: #e6ffff;
+  box-sizing: border-box;
+  min-height: 100px;
+  max-height: 250px;
+  max-width: 100%; }
+
+@media (max-width: 480px) {
+  .contenedor {
+    width: 100%; } }
 
 h1 {
   animation-duration: 2s;
@@ -247,6 +255,7 @@ body {
   background-color: #c7c7c7; }
 
 .indexFooter {
+  width: 100%;
   background-color: black; }
 
 .textBox {
@@ -261,6 +270,9 @@ body {
 
 .btn-primary {
   background-color: black; }
+
+.card {
+  margin: 25px 0px 0px 15px; }
 
 .card-text {
   font-size: 20px;
@@ -280,5 +292,4 @@ body {
   width: 80%; }
 
 .contenido {
-  margin: 0px 10px 10px 10px;
   padding-top: 210px; }
