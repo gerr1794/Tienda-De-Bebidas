@@ -293,3 +293,12 @@ body {
 
 .contenido {
   padding-top: 210px; }
+
+  h1{
+    display: grid;
+    grid-template-areas:  "main main main"
+                          "main main main"
+                          "main main main";
+  }
+
+  
