@@ -1,15 +1,22 @@
+html {
+  height: 100%; }
+
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0; }
 
 h1 {
   color: white;
-  font-family: 'Lobster', sans-serif; }
+  font-family: 'Lobster', sans-serif;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  text-align: center;  }
 
 body {
-  margin: 0px;
-  /* overflow: -moz-scrollbars-none; */ }
+  margin: 0px; 
+  background-color: #c7c7c7; }
 
-/*body::-webkit-scrollbar { width: 0 !important }*/
 nav {
   background: #0000;
   overflow: auto;
@@ -34,10 +41,8 @@ ul {
   margin-top: 36px; }
 
 ul li {
-  display: inline-block; }
-
-ul li {
-  margin-left: 15px; }
+  display: inline-block;
+  margin-left: 15px;}
 
 ul li a {
   font-size: 20px;
@@ -78,6 +83,7 @@ section {
   transition: all .5s ease;
   transform: scale(1); }
 
+  /* inicio MQ hasta 767 */
 @media screen and (max-width: 767px) {
   ul li {
     display: inherit;
@@ -103,13 +109,18 @@ section {
   ul li a {
     color: white; }
   .btn-toggle {
-    display: block; } }
+    display: block; }
+  iframe{
+    max-width: 480px;
+  } }
+/* fin MQ 767 */
 
 .container {
   background-image: white; }
 
 .card {
-  background-color: white; }
+  background-color: rgb(245, 238, 238);
+  margin: 25px 0px 0px 15px; }
 
 .card-text {
   color: black; }
@@ -157,10 +168,10 @@ section {
   color: #450;
   line-height: 1.5;
   padding: 10px;
-  width: 400px;
+  width: 365px;
   max-width: 100%;
   box-sizing: border-box;
-  margin: 20px auto;
+  margin: 15px -5px;
   border: 1px solid black;
   border-radius: 5px;
   appearance: none;
@@ -190,11 +201,6 @@ section {
 @media (max-width: 480px) {
   .contenedor {
     width: 100%; } }
-
-h1 {
-  animation-duration: 2s;
-  animation-name: aparecer;
-  text-align: center; }
 
 h2 {
   color: black;
@@ -235,13 +241,6 @@ h3 {
   color: white;
   font-family: 'Lobster', cursive; }
 
-html {
-  height: 100%; }
-
-* {
-  margin: 0;
-  padding: 0; }
-
 @keyframes aparecer {
   0% {
     opacity: 0; }
@@ -250,9 +249,6 @@ html {
 
 a {
   text-decoration: none; }
-
-body {
-  background-color: #c7c7c7; }
 
 .indexFooter {
   width: 100%;
@@ -271,9 +267,6 @@ body {
 .btn-primary {
   background-color: black; }
 
-.card {
-  margin: 25px 0px 0px 15px; }
-
 .card-text {
   font-size: 20px;
   color: black; }
@@ -289,16 +282,9 @@ body {
   margin: 0 auto;
   padding: 25px 10px 10px 10px;
   max-width: 100%;
-  width: 80%; }
+  width: 60%;
+border-radius: 35px; }
 
 .contenido {
   padding-top: 210px; }
 
-  h1{
-    display: grid;
-    grid-template-areas:  "main main main"
-                          "main main main"
-                          "main main main";
-  }
-
-  
