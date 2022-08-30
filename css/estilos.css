@@ -110,9 +110,7 @@ section {
     color: white; }
   .btn-toggle {
     display: block; }
-  iframe{
-    max-width: 480px;
-  } }
+  }
 /* fin MQ 767 */
 
 .container {
