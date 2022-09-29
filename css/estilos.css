@@ -110,6 +110,9 @@ section {
     color: white; }
   .btn-toggle {
     display: block; }
+    .imagenlink{
+      width: 80%;
+    }
   }
 /* fin MQ 767 */
 
@@ -198,8 +201,21 @@ section {
 
 @media (max-width: 480px) {
   .contenedor {
-    width: 100%; } }
+    width: 100%; }
+  .imagenlink{
+    width: 80% !important;
+  }
+  .subtitulos{
+    font-size: 16px;
+  }
+  .simil-titulo{
+    font-size: 24px;
+  }
+}
 
+iframe{
+  width: 100%;
+}
 h2 {
   color: black;
   font-family: 'Roboto Condensed', sans-serif;
@@ -281,7 +297,7 @@ a {
   padding: 25px 10px 10px 10px;
   max-width: 100%;
   width: 60%;
-border-radius: 35px; }
+  border-radius: 15px; }
 
 .contenido {
   padding-top: 210px; }
